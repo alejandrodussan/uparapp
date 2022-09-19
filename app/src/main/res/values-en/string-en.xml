@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UparApp</string>
+    <string name="app_usuario">Email Address</string>
+    <string name="app_contrasena">Password</string>
+    <string name="app_ingresar">Sing In</string>
+    <string name="app_registrar">Register Now!</string>
+    <string name="app_leyenda_registro">Register and get to know the Vallenata culture in a different way!</string>
+    <string name="app_nombre">Full Name</string>
+    <string name="app_nacionalidad">Nacionality</string>
+    <string name="app_contrasena_repetir">Repeat Password</string>
+    <string name="app_aviso_politicas">By registering, you accept our Conditions and our Privacy Policy</string>
+    <string name="app_menu">Menu</string>
+    <string name="app_rutas">Routes</string>
+    <string name="app_Mapa">Map</string>
+    <string name="app_manual">User Guide</string>
+    <string name="app_nosotros">About</string>
+</resources>

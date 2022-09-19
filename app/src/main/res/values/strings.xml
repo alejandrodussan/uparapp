@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UparApp</string>
+    <string name="app_usuario">Correo Electrónico</string>
+    <string name="app_contrasena">Contraseña</string>
+    <string name="app_ingresar">Ingresar</string>
+    <string name="app_registrar">Registrate ahora!</string>
+    <string name="app_leyenda_registro">Registrate y conoce la cultura vallenata de una forma distinta!</string>
+    <string name="app_nombre">Nombre Completo</string>
+    <string name="app_nacionalidad">Nacionalidad</string>
+    <string name="app_contrasena_repetir">Repetir Contraseña</string>
+    <string name="app_aviso_politicas">Al registrarte, aceptas nuestras Condiciones y nuestra Política de privacidad</string>
+    <string name="app_menu">Menú</string>
+    <string name="app_rutas">Rutas</string>
+    <string name="app_Mapa">Mapa</string>
+    <string name="app_manual">Manual de Usuario</string>
+    <string name="app_nosotros">Nosotros</string>
+</resources>

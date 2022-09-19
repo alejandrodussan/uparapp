@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:clickable="false"
+    tools:context=".menu_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/app_menu"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn_circular_verde"
+                android:clickable="false"
+                android:drawableRight="@drawable/icono_ruta_peq"
+                android:paddingEnd="10dp"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_redondeado_verde"
+                android:text="@string/app_rutas"
+                android:textColor="@drawable/txt_btn_solid_verde" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn_circular_naranja"
+                android:clickable="false"
+                android:drawableRight="@drawable/icono_mapa_peq"
+                android:paddingEnd="10dp"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_redondeado_naranja"
+                android:text="@string/app_Mapa"
+                android:textColor="@drawable/txt_btn_solid_naranja" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn_circular_fucsia"
+                android:clickable="false"
+                android:drawableRight="@drawable/icono_manual_peq"
+                android:paddingEnd="10dp"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_redondeado_fucsia"
+                android:text="@string/app_manual"
+                android:textColor="@drawable/txt_btn_solid_fucsia" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn_circular_azul"
+                android:clickable="false"
+                android:drawableRight="@drawable/icono_info_peq"
+                android:paddingEnd="10dp"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_redondeado_azul"
+                android:text="@string/app_nosotros"
+                android:textColor="@drawable/txt_btn_solid_azul" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnatras"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:background="@drawable/btn_redondeado_fucsia"
+            android:drawableEnd="@drawable/icono_atras_peq"
+            android:onClick="regresar"
+            android:paddingEnd="12dp"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
